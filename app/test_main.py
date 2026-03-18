@@ -7,6 +7,9 @@ from app.main import check_password
     ("Pass@word1", True),
     ("Qwe@1uuuuuuuuuuuuuuu", False),
     ("Str@ng2", False),
+    ("Str@nggggg", False),
+    ("str@ng22222", False),
+    ("Strng222222", False),
 ])
 def test_check_password(
         password: str,
